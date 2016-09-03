@@ -1,0 +1,91 @@
+/* ---------* Reset CSS *------------ */
+/*
+/* ---------* end: Reset CSS *------- */
+
+
+/* ---------* Header *---------------- */
+/* ---------* end: Header *----------- */
+
+
+/* ---------* Body *------------------ */
+#banner-wrapper {
+	background-color: #eeeeee;
+}
+#banner{
+	height: 350px;
+	margin-top: 15px;
+}
+.img-content-slider {
+    position: relative;
+}
+.ls-l.slider-img-1 {
+    float: left;
+}
+.ls-l.slider-img-2,
+.ls-l.slider-img-3 {
+	position: relative;
+	float: right;
+}
+.img-content-slider img { 
+	margin-top: 10px;
+}
+.ls-l.texts-content {
+	position: relative;
+    width: 500px !important;
+    top: 79px !important;
+}
+.ls-l.texts-content.slider-text-2 {
+    top: 35px !important;
+}
+.ls-l.texts-content.slider-text-1 {
+    float: left;
+}
+.ls-l.texts-content.slider-text-2 {
+    float: right;
+}
+.ls-l.texts-content h2 {
+	font-size: 36px;
+	color: #80B256;
+	font-family: OpenSans-sbi;
+    text-shadow: 1px 2px 2px #fff;
+}
+.ls-l.texts-content p {
+    font-family: OpenSans-reg;
+    font-size: 18px;
+    text-shadow: 1px 1px 0px #fff;
+}
+.slider-text-2 ul.list-circle li {
+    padding: 5px 0;
+    font-size: 16px;
+}
+.slider-text-3 ul.list-circle {
+	list-style-type: none;
+	padding: 0;
+}
+.slider-text-3 ul.list-circle li {
+    padding: 5px 0;
+    font-size: 24px;
+}
+.advantage-heading {
+    text-align: center;
+}
+.advantage-heading label {
+    font-weight: normal;
+    font-family: railway-bd;
+    color: #E16201;
+    font-size: 26px;
+}
+/* ---------* end: Body *------------- */
+
+
+/* ---------* Footer *---------------- */
+/* ---------* end: Footer *----------- */
+
+
+/* ---------* Custom *---------------- */
+/* ---------* end: Custom *----------- */
+
+
+/* ---------* Override Bootstrap *---- */
+
+/* ---------* end: Override *--------- */

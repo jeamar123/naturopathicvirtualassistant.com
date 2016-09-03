@@ -1,0 +1,815 @@
+/*
+
+Theme Name: Naturopathic Virtual Assistant
+
+Theme URI: 
+
+Author: Billy Joel Ranario
+
+Version: 1.0
+
+Text Domain: 
+
+*/
+
+
+
+/* ---------* Fonts *---------------- */
+
+@import url('css/fonts.css') screen;
+
+/* ---------* end: Fonts *----------- */
+
+
+
+
+
+/* ---------* Reset CSS *------------ */
+
+* { 
+
+	margin: 0; 
+
+	padding: 0; 
+
+	border: 0; 
+
+}
+
+body {
+
+	font-family: OpenSans-reg, arial, sans-serif;
+
+	/*background-color: #f5f6f7;*/
+
+}
+
+body::-webkit-scrollbar {
+
+    width: 12px;
+
+}
+
+ 
+
+body::-webkit-scrollbar-track {
+
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3); 
+
+    border-radius: 0px;
+
+}
+
+ 
+
+body::-webkit-scrollbar-thumb {
+
+    background-color: #80B256;
+
+    border-radius: 0px;
+
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.5);
+
+}
+
+h1 { 
+
+    font-size: 2.2em; 
+
+} 
+
+h2 { 
+
+    font-size: 2.0em;     
+
+} 
+
+h3 { 
+
+    font-size: 1.8em; 
+
+} 
+
+h4 { 
+
+    font-size: 1.6em;     
+
+} 
+
+h5 { 
+
+    font-size: 1.4em;     
+
+} 
+
+p { 
+
+    font-size: 1.2em;     
+
+}
+
+/* ---------* end: Reset CSS *------- */
+
+
+
+
+
+/* ---------* Header *---------------- */
+
+header {
+
+	/*background: #90D15A;*/
+
+	/*min-height: 100px;*/
+
+}
+
+.top-search {
+
+    padding: 7px 0px;
+
+    background: #80B256;
+
+}
+
+.main-branding .logo-wrapper img {
+
+	width: 290px;
+
+}
+
+.top_social_links a {
+
+	color: #f8f8f8;
+
+}
+
+.search_box .input-group input, 
+
+.search_box .input-group .input-group-btn button {
+
+	border-radius: 0;
+
+	border-color: #fff;	
+
+}
+
+.form-wrapper #searchform .search-input {
+
+	width: 40%;
+
+	float: right;
+
+    transition: all 0.8s ease-in-out;
+
+    webkit-transition: all 0.5s ease-in-out;
+
+    -moz-transition: all 0.5s ease-in-out;
+
+    -ms-transition: all 0.5s ease-in-out;
+
+    -o-transition: all 0.5s ease-in-out;
+
+    transition: all 0.5s ease-in-out;
+
+    border-right: none;
+
+}
+
+.form-wrapper #searchform .search-input:focus {
+
+	width: 80%;
+
+    box-shadow: none;
+
+}
+
+.form-wrapper #searchform .input-group-btn button {
+
+    border-left: none;
+
+    background-color: #fff;
+
+    color: #80B256;
+
+    outline: 0;
+
+}
+
+.main-navigation {
+
+	background-color: #90D15A;
+
+	min-height: 50px;
+
+	padding: 25px 0 0;
+
+}
+
+#main-menu-wrapper {
+
+	padding: 0;
+
+}
+
+#main-menu > li > a {
+
+	color: #f8f8f8;
+
+	text-transform: capitalize;
+
+	padding: 10px;
+
+	font-family: railway-reg;
+
+	background: none; 
+
+}
+
+#main-menu > li > ul > li > a {
+
+	text-transform: capitalize;
+
+	padding: 10px;
+
+	font-family: railway-reg;
+
+}
+
+.social-links li a {
+
+    display: block;
+
+    padding: 8px 0px;
+
+}
+
+.social-links li {
+
+    font-size: 24px;
+
+    color: #528725;
+
+    text-shadow: 1px 1px 1px #BCEF93;
+
+    overflow: hidden;    
+
+}
+
+/* ---------* end: Header *----------- */
+
+
+
+
+
+/* ---------* Body *------------------ */
+
+#newsletter-wrapper {
+
+    /*min-height: 75px;*/
+
+    border-bottom: 1px solid #E2DFDF;
+
+    webkit-transition: all 0.5s ease-in-out;
+
+    -moz-transition: all 0.5s ease-in-out;
+
+    -ms-transition: all 0.5s ease-in-out;
+
+    -o-transition: all 0.5s ease-in-out;
+
+    transition: all 0.5s ease-in-out;
+
+    background: #fff;
+
+}
+
+#newsletter-wrapper.stuck {
+
+    position: fixed;
+
+    width: 100%;
+
+    left: 0;
+
+    top: 0;
+
+    display: block;
+
+    z-index: 1;
+
+    border-bottom: none;
+
+    box-shadow: 16px -2px 15px #B3B3B3;
+
+    background: rgba(36, 34, 34, 0.8);
+
+
+
+}
+
+#newsletter-wrapper.stuck #newsletter-form > div {
+
+    color: #fff;;
+
+}
+
+#newsletter-form {
+
+    padding: 15px 0;
+
+    overflow: hidden;
+
+    text-align: right;
+
+}
+
+#newsletter-form form input.name {
+
+
+
+}
+
+#newsletter-form > div,
+
+#newsletter-form > form
+
+{
+
+    display: inline-block;
+
+}
+
+#newsletter-form > div {
+
+    font-family: railway-bd;
+
+    color: #80B256;
+
+    font-size: 16px;
+
+    padding-top: 5px;
+
+    margin-right: 25px;
+
+    webkit-transition: all 0.5s ease-in-out;
+
+    -moz-transition: all 0.5s ease-in-out;
+
+    -ms-transition: all 0.5s ease-in-out;
+
+    -o-transition: all 0.5s ease-in-out;
+
+    transition: all 0.5s ease-in-out;
+
+}
+
+#newsletter-form form button {
+
+    background-color: #E16201;
+
+    border-color: #E16201;
+
+}
+
+.article-wrapper {
+
+    padding-top: 30px;
+
+    overflow: hidden;
+
+}
+
+.article-wrapper article h4 {
+
+    margin-top: 25px;
+
+    font-size: 24px;
+
+    font-family: OpenSans-reg;
+
+}
+
+.article-wrapper article p {
+
+    margin-bottom: 20px;
+
+	font-size: 14px;
+
+    font-family: OpenSans-reg;
+
+    text-align: justify;
+
+}
+
+.bottom-brandings {
+
+    overflow: hidden;
+
+    border-top: 1px solid #ccc;
+
+    margin-top: 50px;
+
+    padding-top: 10px;
+
+}
+
+.bottom-brandings div {
+
+    overflow: hidden;
+
+}
+div.wpcf7 input[type="text"],
+div.wpcf7 input[type="email"],
+div.wpcf7 textarea
+{
+    display: block;
+    width: 100%;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #555;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+    -webkit-transition: border-color ease-in-out .15s,-webkit-box-shadow ease-in-out .15s;
+    -o-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+    transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+}
+div.wpcf7 input[type="submit"] {
+    display: inline-block;
+    padding: 6px 12px;
+    margin-bottom: 0;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.42857143;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-image: none;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    color: #fff;
+    background-color: #f0ad4e;
+    border-color: #eea236;
+}
+div.wpcf7 input[type="submit"]:hover {
+    color: #fff;
+    background-color: #ec971f;
+    border-color: #d58512;
+}
+/* ---------* end: Body *------------- */
+
+
+
+
+
+/* ---------* Footer *---------------- */
+
+footer {
+
+	margin-top: 15px;
+
+}
+
+.parallax-window {
+
+	min-height: 250px;
+
+}
+
+.contact-link-wrapper {
+
+    position: relative;
+
+    top: 75px;
+
+}
+
+.contact-link-wrapper h4 {
+
+    color: #fff;
+
+    font-size: 28px;
+
+    text-shadow: 1px 1px 2px #aaa;
+
+}
+
+.contact-link-wrapper a.hvr-outline-in {
+
+    padding: 10px 40px;
+
+    background-color: #6FBF2B;
+
+    color: #fff;
+
+    margin-top: 15px;
+
+    text-decoration: none;
+
+    /*box-shadow: 2px 2px 4px #418C1C;*/
+
+}
+
+.contact-link-wrapper a.hvr-outline-in:before {
+
+    border: #18A92D solid 4px;
+
+}
+
+.footer-nav-wrapper {
+
+    background-color: #eee;
+
+    padding: 40px 0;    
+
+}
+
+.footer-navigation h4 {
+
+    font-size: 16px;
+
+    font-family: railway-md;
+
+    border-bottom: 1px solid #ccc;
+
+    padding-bottom: 7px;
+
+    margin-bottom: 25px;
+
+}
+
+.footer-navigation ul li {
+
+	padding: 3px 0; 
+
+}
+
+.footer-navigation ul li a {
+
+    text-decoration: none;
+
+    color: #3D7112;
+
+    text-transform: capitalize;
+
+}
+
+.footer-navigation ul li a:hover {
+
+    color: #80B256;
+
+}
+
+.footer-navigation p {
+
+	font-size: 13px;
+
+    color: #3D7112;
+
+}
+
+.copyright {
+
+	background-color: #72B738;
+
+}
+
+.copyright p {
+
+    margin: 0;
+
+    font-size: 11px;
+
+    color: #fff;
+
+    text-decoration: none;
+
+    padding: 14px 0;
+
+    font-family: railway-reg;
+
+}
+
+.copyright a {
+
+    color: #fff;
+
+    text-decoration: none;
+
+}
+
+.copyright a:hover {
+
+    text-decoration: underline;
+
+}
+
+/* ---------* end: Footer *----------- */
+
+
+
+
+
+/* ---------* Custom *---------------- */
+
+.remove-margin {
+
+	margin: 0;
+
+}
+
+.remove-side-padding {
+
+	padding-left: 0 !important;
+
+	padding-right: 0 !important;
+
+}
+
+.img-responsive {
+
+	width: 100%;
+
+}
+
+ul.list-circle,
+
+.article-wrapper article ul 
+
+{
+
+    list-style-type: circle;
+
+    padding-left: 40px;
+
+    font-family: railway-reg;
+
+}
+
+.text-green {
+
+    color: #80B256;
+
+}
+
+.horizontal-gray-line {
+
+    /*width: 100%;
+
+    border-bottom: 1px solid #ccc;*/
+
+}
+
+.gradient-separator {
+
+	background-image: -webkit-gradient(
+
+		linear,
+
+		left bottom,
+
+		right bottom,
+
+		color-stop(0, #426627),
+
+		color-stop(0, #85C74C)
+
+	);
+
+	background-image: -o-linear-gradient(right, #426627 0%, #85C74C 0%);
+
+	background-image: -moz-linear-gradient(right, #426627 0%, #85C74C 0%);
+
+	background-image: -webkit-linear-gradient(right, #426627 0%, #85C74C 0%);
+
+	background-image: -ms-linear-gradient(right, #426627 0%, #85C74C 0%);
+
+	background-image: linear-gradient(to right, #426627 0%, #85C74C 0%);
+
+	width: 100%;
+
+	height: 2px;
+
+}
+
+.social {
+
+	height: 27px;
+
+    width: 27px;
+
+    float: left;
+
+    display: inline-block;
+
+    background: url('img/social-icons.png');
+
+    background-repeat: no-repeat;
+
+    background-size: 80px;
+
+    background-color: #80B256;
+
+    -webkit-transition: all .2s;
+
+    transition: all .2s;
+
+    -moz-transition: all .2s;
+
+    border-radius: 50% 50%;
+
+}
+
+.social-icon-twitter {
+
+	background-position: -24px -26px;
+
+}
+
+.social-icon-rss {
+
+    background-position: -58px -25px;	
+
+}
+
+.social-icon-fb {
+
+    background-position: 11px -25px;
+
+}
+
+.social-icon-fb:hover {
+
+    background-position: 11px 0;
+
+    background-color: #fff;
+
+}
+
+.social-icon-twitter:hover {
+
+    background-position: -24px -2px;
+
+    background-color: #fff;
+
+}
+
+.social-icon-rss:hover {
+
+    background-position: -58px -2px;
+
+    background-color: #fff;
+
+}
+
+/* ---------* end: Custom *----------- */
+
+
+
+
+
+/* ---------* Override Bootstrap *---- */
+
+.nav > li > a:hover, 
+
+.nav > li > a:focus
+
+{
+
+	text-decoration: none;
+
+	color: #80B256 !important;
+
+    background-color: #efefef;
+
+    text-shadow: 1px 1px 4px #fff;
+
+}
+
+.navbar {
+
+	 min-height: 1px; 
+
+	 margin-bottom: 0px; 
+
+}
+
+.form-inline .form-group {
+
+    max-width: 100% !important;
+
+}
+
+/* ---------* end: Override *--------- */

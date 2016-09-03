@@ -1,0 +1,124 @@
+/* ---------* Reset CSS *------------ */
+/*
+/* ---------* end: Reset CSS *------- */
+
+
+/* ---------* Header *---------------- */
+/* ---------* end: Header *----------- */
+
+
+/* ---------* Body *------------------ */
+#banner-wrapper {
+	background-color: #eeeeee;
+}
+#banner{
+	height: 350px;
+	margin-top: 15px;
+}
+.img-content-slider {
+    position: relative;
+}
+.ls-l.slider-img-1 {
+    float: left;
+}
+.ls-l.slider-img-2,
+.ls-l.slider-img-3 {
+	position: relative;
+	float: right;
+}
+.img-content-slider img { 
+	margin-top: 10px;
+}
+.ls-l.texts-content {
+	position: relative;
+    width: 500px !important;
+    top: 79px !important;
+}
+.ls-l.texts-content.slider-text-2 {
+    top: 35px !important;
+}
+.ls-l.texts-content.slider-text-1 {
+    float: left;
+}
+.ls-l.texts-content.slider-text-2 {
+    float: right;
+}
+.ls-l.texts-content h2 {
+	font-size: 36px;
+	color: #80B256;
+	font-family: OpenSans-sbi;
+    text-shadow: 1px 2px 2px #fff;
+}
+.ls-l.texts-content p {
+    font-family: OpenSans-reg;
+    font-size: 18px;
+    text-shadow: 1px 1px 0px #fff;
+}
+.slider-text-2 ul.list-circle li {
+    padding: 5px 0;
+    font-size: 16px;
+}
+.slider-text-3 ul.list-circle {
+	list-style-type: none;
+	padding: 0;
+}
+.slider-text-3 ul.list-circle li {
+    padding: 5px 0;
+    font-size: 24px;
+}
+.home-web-advantage {
+    overflow: hidden;
+    margin: 20px 0 50px;
+}
+.features:last-child {
+    text-align: center;
+}
+.advantage-heading {
+    text-align: center;
+}
+.advantage-heading label {
+    font-weight: normal;
+    font-family: railway-bd;
+    color: #676;
+    font-size: 26px;
+    margin-bottom: 50px;
+    /*text-transform: uppercase;*/
+}
+.icon-wrapper,
+.column-content 
+{
+    text-align: center;
+}
+.icon-wrapper .fa {
+    background: #E16201;
+    border-radius: 50%;
+    color: #fff;
+    font-size: 5em;
+    padding: 30px 30px;
+    transition: box-shadow 0.2s;
+}
+.text-hovered {
+    background: #fff !important;
+    color: #E16201 !important;
+    box-shadow: 0 0 0 10px #E16201;
+}
+.column-content h4 {
+    /*text-transform: uppercase;*/
+    font-size: 18px;
+    margin: 28px 0 10px;
+    min-height: 40px;    
+}
+/* ---------* end: Body *------------- */
+
+
+/* ---------* Footer *---------------- */
+/* ---------* end: Footer *----------- */
+
+
+/* ---------* Custom *---------------- */
+/* ---------* end: Custom *----------- */
+
+
+/* ---------* Override Bootstrap *---- */
+
+/* ---------* end: Override *--------- */

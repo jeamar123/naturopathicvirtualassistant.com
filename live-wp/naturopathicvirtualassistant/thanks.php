@@ -1,0 +1,1 @@
+Thanks for making a commitment to taking back your health, and welcome to the ChrisKresser.com community!

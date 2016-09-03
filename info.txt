@@ -1,0 +1,18 @@
+http://localhost/naturopathicvirtualassistant.com
+
+<-- wp-admin account -->
+username: admin
+password: admin
+
+http://www.naturopathicvirtualassistant.com/wp-admin/
+username: natur
+password: Nhy6mjU7
+
+http://www.naturopathicvirtualassistant.com/wp-admin/customize.php?theme=abundance
+
+Jetpack by WordPress.com
+J Shortcodes
+Price Table
+TinyMCE Advanced
+WordPress Importer
+Wordpress Portfolio Plugin

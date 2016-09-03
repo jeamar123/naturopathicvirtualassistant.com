@@ -1,0 +1,47 @@
+.breadcrumbs h3 {
+	font-size: 28px;
+	font-family: railway-bd;
+	color: #E0911C;
+	margin-top: 40px;
+	margin-bottom: 0;
+	border-bottom: 1px solid #EDEDED;
+	padding-bottom: 15px;
+}
+.page-article-wrapper article img {
+	float: right;
+	margin-left: 15px;
+	margin-bottom: 10px;
+}
+.sidebar-content {
+	overflow: hidden;
+    padding-top: 35px;	
+}
+.side-newsletter {
+    border-bottom: 1px solid #E2DFDF;
+    padding-bottom: 20px;
+    margin-bottom: 25px;
+}
+.sidebar-content .text-description {
+	text-align: center;
+	margin-bottom: 15px;
+}
+.sidebar-content small {
+    margin-top: 12px;
+    display: block;
+}
+.web-advantage h4 {
+	margin-bottom: 17px;
+}
+.adv-list {
+    margin-bottom: 10px;
+    border-bottom: 1px dotted #E2DFDF;
+    padding-bottom: 0px;
+}
+.adv-list h5 {
+    font-size: 16px;
+    margin: 0 0 5px;
+}
+.adv-list p {
+    font-size: 12px;
+    color: #777;    
+}
